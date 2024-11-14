@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#fff">
+
+    <EditText
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:editable="false"
+        android:hint="Veja seu tempo!"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="34sp"
+        tools:ignore="Deprecated" />
+
+    <EditText
+        android:id="@+id/subWelcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:editable="false"
+        android:hint="Insira seu cep para ver o tempo na sua região!"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        tools:ignore="Deprecated" />
+
+
+    <EditText
+        android:id="@+id/cepTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Insira seu cep aqui"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Buscar"
+        android:background="#4287f5"
+        android:textColor="#fff" />
+
+</LinearLayout>
